@@ -1,3 +1,6 @@
+def mul(a,b):
+	return a*b
+
 if __name__ == "__main__":
 	while True:
 		print("enter two numbers : ")
@@ -7,6 +10,7 @@ if __name__ == "__main__":
 		if(operator == '1'):
 		elif(operator == '2'):
 		elif(operator == '3'):
+			print(mul(operand1, operand2))
 		elif(operator == '4'):
 		elif(operator == '5'):
 		elif(operator == '6'):
